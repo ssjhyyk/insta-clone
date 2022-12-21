@@ -1,14 +1,16 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import Head from "next/head";
+import Header from "../components/Header";
 
 export default function Home() {
   return (
-    <h1 className="text-3xl font-bold">
-      Hello world!
-      <br/>This side Vaishnavi
-      <br/>
-      hey kanishak this side
-    </h1>
+    <div>
+      <Head>
+        <title>Insta Clone</title>
+      </Head>
+      <div>
+        <Header />
+      </div>
+    </div>
+    
   )
 }
