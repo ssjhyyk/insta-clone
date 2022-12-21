@@ -7,6 +7,8 @@ export default function Home() {
     <h1 className="text-3xl font-bold">
       Hello world!
       <br/>This side Vaishnavi
+      <br/>
+      hey kanishak this side
     </h1>
   )
 }
