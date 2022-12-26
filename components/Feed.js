@@ -1,5 +1,4 @@
-import React from 'react'
-import Stories from "./Stories"
+import Stories from "./Stories";
 
 function feed() {
   return (
@@ -21,4 +20,4 @@ function feed() {
   )
 }
 
-export default feed
+export default feed;
